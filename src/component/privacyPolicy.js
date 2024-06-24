@@ -1,7 +1,9 @@
 import React from 'react';
 import './privacyPolicy.css';
-import NavHeader from './component/NavHeader';
-import Footer from './component/Footer';
+// import NavHeader from './component/NavHeader';
+// import Footer from './component/Footer';
+import NavHeader from './NavHeader';
+import Footer from './Footer';
 
 const PrivacyPolicyPage = () => {
     return (
