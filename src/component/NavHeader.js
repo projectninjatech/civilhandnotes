@@ -21,7 +21,9 @@ const NavHeader = () => {
     <header className="nav-header">
       <div className="nav-header-content">
         <div className="logo-header">
+          <a href='/'>
           <img className='logo-img' src={logo} alt="Logo" />
+          </a>
         </div>
         <nav className={`nav ${menuOpen ? 'open' : ''}`}>
           <ul>
