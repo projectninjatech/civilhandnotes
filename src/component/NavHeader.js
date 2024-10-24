@@ -1,6 +1,7 @@
 // src/components/NavHeader.js
 import React, { useState } from 'react';
 import './NavHeader.css';
+import play from '../assets/play.png'
 import logo from '../assets/logo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link as RouterLink } from 'react-router-dom';
@@ -38,7 +39,9 @@ const NavHeader = () => {
             </li>
           </ul>
         </nav>
-        <a href="#" className="download-btn">Download App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.civilnotesapp&hl=en">
+          <img class="play-img" src={play} alt="Download Civil Notes App" />
+        </a>
         {menuOpen ? (
           <FaTimes className="hamburger-icon" onClick={toggleMenu} />
         ) : (

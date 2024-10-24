@@ -42,6 +42,11 @@
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+.contact-us-text p a {
+  text-decoration: none;
+  color: blue;
+  font-size: medium;
+}
 
 @media (max-width: 768px) {
   /* .contact-us {

@@ -41,7 +41,7 @@
 
 .privacy-policy-list-item a {
     color: blue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .privacy-policy-list-item a:hover {

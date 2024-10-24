@@ -1,7 +1,5 @@
 import React from 'react';
 import './privacyPolicy.css';
-// import NavHeader from './component/NavHeader';
-// import Footer from './component/Footer';
 import NavHeader from './NavHeader';
 import Footer from './Footer';
 
@@ -19,15 +17,13 @@ const PrivacyPolicyPage = () => {
                 <h2 className='privacy-policy-heading-h2'>Information We Collect</h2>
                 <h3 className='privacy-policy-heading-h3'>Personal Information:</h3>
                 <ul className='privacy-policy-list'>
-                    <li className='privacy-policy-list-item'>User Account Information: When you sign up or log in, we collect your name, email address or phone number.</li>
-                    <li className='privacy-policy-list-item'>Payment Information: For processing payments, we collect payment details such as user email, phone number, payment session ID, order ID, and transaction details.</li>
+                    <li className='privacy-policy-list-item'>User Account Information: When you sign up or log in, we collect your name and email address.</li>
                 </ul>
 
                 <h2 className='privacy-policy-heading-h2'>How We Use Your Information</h2>
                 <p className='privacy-policy-text'><strong>To Provide and Improve Our Services:</strong></p>
                 <ul className='privacy-policy-list'>
                     <li className='privacy-policy-list-item'>To create and manage your account.</li>
-                    <li className='privacy-policy-list-item'>To process payments and recharge transactions.</li>
                     <li className='privacy-policy-list-item'>To provide customer support.</li>
                 </ul>
                 <p className='privacy-policy-text'><strong>Communication:</strong></p>
@@ -42,7 +38,6 @@ const PrivacyPolicyPage = () => {
                 <h2 className='privacy-policy-heading-h2'>Sharing Your Information</h2>
                 <p className='privacy-policy-text'>We do not share your personal information with third parties except in the following circumstances:</p>
                 <ul className='privacy-policy-list'>
-                    <li className='privacy-policy-list-item'>With Service Providers: We may share your information with third-party service providers who perform services on our behalf, such as payment processing.</li>
                     <li className='privacy-policy-list-item'>For Legal Reasons: We may disclose your information if required to do so by law or in response to a legal process.</li>
                 </ul>
 
@@ -57,7 +52,7 @@ const PrivacyPolicyPage = () => {
                     <li className='privacy-policy-list-item'>Deletion: You can request deletion of your personal information, subject to certain legal obligations.</li>
                     <li className='privacy-policy-list-item'>Objection: You can object to the processing of your personal information in certain circumstances.</li>
                 </ul>
-                <p className='privacy-policy-text'>To exercise these rights, please contact us at <a href="mailto:your@email.com">civilhandnotes@gmail.com</a>.</p>
+                <p className='privacy-policy-text'>To exercise these rights, please feel free to contact Us.</p>
 
                 <h2 className='privacy-policy-heading-h2'>Changes to This Privacy Policy</h2>
                 <p className='privacy-policy-text'>We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. You are advised to review this privacy policy periodically for any changes.</p>
@@ -65,8 +60,8 @@ const PrivacyPolicyPage = () => {
                 <h2 className='privacy-policy-heading-h2'>Contact Us</h2>
                 <p className='privacy-policy-text'>If you have any questions or concerns about this privacy policy or our data practices, please contact us at:</p>
                 <ul className='privacy-policy-list'>
-                    <li className='privacy-policy-list-item'>Email: <a href="mailto:civilhandnotes@gmail.com">your@email.com</a></li>
-                    <li className='privacy-policy-list-item'>Phone: +918609522792</li>
+                    <li className='privacy-policy-list-item'>Email: <a href="mailto:civilhandnotes@gmail.com">civilhandnotes@gmail.com</a></li>
+                    <li className='privacy-policy-list-item'>WhatsApp: <a href='https://wa.me/918609522792' target='_blank' rel='noopener noreferrer'>+918609522792</a></li>
                 </ul>
 
                 <p className='privacy-policy-text'><strong>Acceptance of This Policy</strong></p>

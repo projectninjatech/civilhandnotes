@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 // import logo from '../assets/logo.png';
-import logo from '../assets/logo.gif'
+import logo from '../assets/logo.png'
+import play from '../assets/play.png'
 import headerImage from '../assets/headerImage.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
@@ -22,7 +23,7 @@ const Header = () => {
       <div className="header-content">
         <div className="logo-header">
           <img className='logo-img' src={logo} alt="Logo" />
-          </div>
+        </div>
         <nav className={`nav ${menuOpen ? 'open' : ''}`}>
           <ul>
             <li style={{ cursor: 'pointer' }}><a href="/" onClick={closeMenu}>Home</a></li>
@@ -31,7 +32,12 @@ const Header = () => {
             <li style={{ cursor: 'pointer' }}><a href="/privacy" onClick={closeMenu}>Privacy Policy</a></li>
           </ul>
         </nav>
-        <a href="#" className="download-btn">Download App</a>
+        
+        <a href="https://play.google.com/store/apps/details?id=com.civilnotesapp&hl=en">
+          <img class="play-img" src={play} alt="Download Civil Notes App" />
+        </a>
+
+
         {menuOpen ? (
           <FaTimes className="hamburger-icon" onClick={toggleMenu} />
         ) : (

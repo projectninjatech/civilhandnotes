@@ -35,18 +35,13 @@
     color: #ffeb3b;
 }
 
-.download-btn {
-    text-decoration: none;
-    color: white;
-    background-color: #ff5722;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-weight: bold;
+.play-btn-container {
+    align-items: center;
 }
 
-.download-btn:hover {
-    background-color: #e64a19;
+.play-img {
+    width: 9.5em;
+    margin-top: 10px;
 }
 
 .hamburger-icon {

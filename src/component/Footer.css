@@ -77,6 +77,11 @@
     text-align: left;
 }
 
+.mailTxt, .whatsappTxt {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 @media (max-width: 768px) { 
     .footer-contact-us-text {
         display: none;

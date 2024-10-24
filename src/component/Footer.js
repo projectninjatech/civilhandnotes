@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'; // Import your CSS for Footer if needed
 // import Logo from '../assets/logo.png';
-import Logo from '../assets/logo.gif'
+import Logo from '../assets/logo.png'
 import { FaHome, FaInfoCircle, FaEnvelope, FaShieldAlt } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
@@ -31,8 +31,8 @@ const Footer = ({ currentPath }) => {
         </div>
         <div className="footer-contact-us-text desktop-only">
           <h1>Contact Us</h1>
-          <p><FaEnvelope /> civilhandnotes@gmail.com</p>
-          <p><FaEnvelope /> Phone: +918609522792</p>
+          <p><FaEnvelope /> <a className='mailTxt' href="mailto:civilhandnotes@gmail.com">civilhandnotes@gmail.com</a></p>
+          <p><FaEnvelope /> WhatsApp: <a className='whatsappTxt' href='https://wa.me/918609522792' target='_blank' rel='noopener noreferrer'>+918609522792</a></p>
         </div>
       </div>
       <div className="footer-bottom">

@@ -8,7 +8,6 @@ import AboutUs from './component/AboutUs';
 import ContactUs from './component/ContactUs';
 import Footer from './component/Footer';
 import ScrollToTopButton from './component/ScrollToTopButton';
-// import PrivacyPolicyPage from './privacyPolicy';
 import PrivacyPolicyPage from './component/privacyPolicy'
 
 const App = () => {
