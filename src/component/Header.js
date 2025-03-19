@@ -30,6 +30,7 @@ const Header = () => {
             <li style={{ cursor: 'pointer' }}><Link to="about-us" spy={true} smooth={true} duration={500} onClick={closeMenu}>About Us</Link></li>
             <li style={{ cursor: 'pointer' }}><Link to="contact-us" spy={true} smooth={true} duration={500} onClick={closeMenu}>Contact Us</Link></li>
             <li style={{ cursor: 'pointer' }}><a href="/privacy" onClick={closeMenu}>Privacy Policy</a></li>
+            <li style={{ cursor: 'pointer' }}><a href="/refund" onClick={closeMenu}>Refund Policy</a></li>
           </ul>
         </nav>
         

@@ -9,6 +9,7 @@ import ContactUs from './component/ContactUs';
 import Footer from './component/Footer';
 import ScrollToTopButton from './component/ScrollToTopButton';
 import PrivacyPolicyPage from './component/privacyPolicy'
+import RefundPolicyPage from './component/RefundPolicy';
 
 const App = () => {
   return (
@@ -22,6 +23,10 @@ const App = () => {
           <Route
             path="/privacy"
             element={<PrivacyPolicyPage />}
+          />
+          <Route
+            path="/refund"
+            element={<RefundPolicyPage />}
           />
         </Routes>
       </div>

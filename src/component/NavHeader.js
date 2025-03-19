@@ -39,6 +39,9 @@ const NavHeader = () => {
             <li style={{ cursor: 'pointer' }}>
               <RouterLink to="/privacy" onClick={closeMenu}>Privacy Policy</RouterLink>
             </li>
+            <li style={{ cursor: 'pointer' }}>
+              <RouterLink to="/refund" onClick={closeMenu}>Refund Policy</RouterLink>
+            </li>
           </ul>
         </nav>
         <a href="https://play.google.com/store/apps/details?id=com.civilnotesapp&hl=en">

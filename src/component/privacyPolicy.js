@@ -11,13 +11,19 @@ const PrivacyPolicyPage = () => {
             <div className="privacy-policy-container">
                 <h1 className='privacy-policy-heading-h1'>Privacy Policy</h1>
 
-                <h2 className='privacy-policy-heading-h2'>Introduction</h2>
-                <p className='privacy-policy-text'>Welcome to Civil HandNotes - GATE App. Your privacy is important to us. This privacy policy explains how we collect, use, and protect your personal information when you use our app.</p>
+                <h2 className='privacy-policy-heading-h2'>Government Affiliation Disclaimer</h2>
+                <p className='privacy-policy-text'>Civil Hand Notes - GATE Exam Preparation App is an independent educational application and is not affiliated with, endorsed by, or sponsored by any government entity, IITs, NPTEL, or the official GATE authorities. The content provided in this app is for informational and educational purposes only and is compiled from publicly available sources.
+                </p>
+
+                <h3 className='privacy-policy-heading-h3'>Personal Information:</h3>
+                <ul className='privacy-policy-list'>
+                    <li className='privacy-policy-list-item'>User Account Information: When you sign up or log in, we collect your name and email address (only required for account-related features).</li>
+                </ul>
 
                 <h2 className='privacy-policy-heading-h2'>Information We Collect</h2>
                 <h3 className='privacy-policy-heading-h3'>Personal Information:</h3>
                 <ul className='privacy-policy-list'>
-                    <li className='privacy-policy-list-item'>User Account Information: When you sign up or log in, we collect your name and email address.</li>
+                    <li className='privacy-policy-list-item'>User Account Information: When you sign up or log in, we collect your name and email address (only required for account-related features).</li>
                 </ul>
 
                 <h2 className='privacy-policy-heading-h2'>How We Use Your Information</h2>
@@ -33,6 +39,11 @@ const PrivacyPolicyPage = () => {
                 <p className='privacy-policy-text'><strong>Legal Compliance:</strong></p>
                 <ul className='privacy-policy-list'>
                     <li className='privacy-policy-list-item'>To comply with legal obligations and respond to lawful requests.</li>
+                </ul>
+
+                <p className='privacy-policy-text'><strong>Third-Party Services:</strong></p>
+                <ul className='privacy-policy-list'>
+                    <li className='privacy-policy-list-item'>We may use third-party services such as Google Analytics or Firebase to enhance app functionality. These services may collect and process data as per their respective privacy policies.</li>
                 </ul>
 
                 <h2 className='privacy-policy-heading-h2'>Sharing Your Information</h2>
